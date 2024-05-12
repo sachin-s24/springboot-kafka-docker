@@ -4,8 +4,8 @@ This application is a demo example for how to implement Kafka consumer and produ
 Use the confluent docker-compose
 
 #### To start and stop kafka on docker use following commands:
-1.  docker compose -f zk-single-kafka-single.yml up
-2.  docker compose -f zk-single-kafka-single.yml down
+1.  docker compose -f docker-compose.yml up
+2.  docker compose -f docker-compose.yml down
 
 Then start the SpringBoot application.
 
